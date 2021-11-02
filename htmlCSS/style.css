@@ -1,0 +1,29 @@
+body {
+  margin: 30% 40%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 400px;
+  width: 300px;
+  background-color: rgb(250, 199, 118);
+}
+
+label,
+input {
+  margin-top: 10px;
+}
+
+input {
+  width: 100px;
+}
+
+.generate,
+.reset {
+}
+
+.generate {
+  margin-top: 10px;
+}
