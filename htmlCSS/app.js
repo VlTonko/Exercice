@@ -9,7 +9,7 @@ console.log(typeof maxValue);
 document.querySelector('.generate').addEventListener('click', generateRandomValue);
 document.querySelector('.reset').addEventListener('click', logi);
 
-function generateRandomValue(minValue, maxValue) {
+function generateRandomValue() {
   console.log(typeof minValue);
   console.log(typeof maxValue);
   let result = minValue + maxValue;
